@@ -1,13 +1,13 @@
 from asyncio.queues import QueueEmpty
-from config import que
+from PikachuXd.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from cache.admins import set
-from helpers.channelmusic import get_chat_id
-from helpers.decorators import authorized_users_only, errors
-from helpers.filters import command, other_filters
-from callsmusic import callsmusic
+from PikachuXd.cache.admins import set
+from PikachuXd.helpers.channelmusic import get_chat_id
+from PikachuXd.helpers.decorators import authorized_users_only, errors
+from PikachuXd.helpers.filters import command, other_filters
+from PikachuXd.callsmusic import callsmusic
 
 
 
