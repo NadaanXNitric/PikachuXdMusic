@@ -14,7 +14,7 @@ from PikachuXd.helpers.channelmusic import get_chat_id
 from PikachuXd.callsmusic import callsmusic
 from PikachuXd.callsmusic.queues import queues
 from PikachuXd.helpers.admins import get_administrators
-from PikachuXd.youtube_search import YoutubeSearch
+from youtube_search import YoutubeSearch
 from PikachuXd.callsmusic.callsmusic import client as USER
 from pyrogram.errors import UserAlreadyParticipant
 from PikachuXd.downloaders import youtube
