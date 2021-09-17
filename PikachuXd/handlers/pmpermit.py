@@ -1,9 +1,9 @@
 from pyrogram import Client
 import asyncio
-from config import SUDO_USERS, PMPERMIT, OWNER_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
+from PikachuXd.config import SUDO_USERS, PMPERMIT, OWNER_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
 from pyrogram import filters
 from pyrogram.types import Message
-from callsmusic.callsmusic import client as USER
+from PikachuXd.callsmusic.callsmusic import client as USER
 
 PMSET =True
 pchats = []
