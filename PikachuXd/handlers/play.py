@@ -5,7 +5,7 @@ import aiohttp
 import aiofiles
 import asyncio
 import requests
-import converter
+import PikachuXd.converter
 from os import path
 from asyncio.queues import QueueEmpty
 from pyrogram import Client, filters
