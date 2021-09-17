@@ -24,8 +24,8 @@ UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Sanki_BOTs")
 OWNER_NAME = getenv("OWNER_NAME", "iTs_Nitric") # isi dengan username kamu tanpa simbol @
 DEV_NAME = getenv("DEV_NAME", "iTs_Nitric")
 PMPERMIT = getenv("PMPERMIT", None)
-LOG_CHANNEL = getenv("LOG_CHANNEL", "1001334104062)
-OWNER_ID = getenv("OWNER_ID", "1961533931)
+LOG_CHANNEL = getenv("LOG_CHANNEL", "1001334104062")
+OWNER_ID = getenv("OWNER_ID", "1961533931")
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
