@@ -1,7 +1,7 @@
 import requests
 from pyrogram import Client as Bot
 
-from callsmusic import run
+from PikachuXd.callsmusic import run
 from PikachuXd.config import API_ID, API_HASH, BOT_TOKEN, BG_IMAGE
 
 response = requests.get(BG_IMAGE)
