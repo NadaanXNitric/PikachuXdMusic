@@ -1,3 +1,3 @@
-from PikachuXd.cache.admins import admins, get, set
+from PikachuXd.cache.admins import set
 
 __all__ = ["admins", "get", "set"]
