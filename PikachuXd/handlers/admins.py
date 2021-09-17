@@ -15,8 +15,6 @@ from PikachuXd.helpers.filters import command, other_filters
 from PikachuXd.callsmusic import callsmusic
 from PikachuXd.callsmusic.queues import queues
 from PikachuXd.config import LOG_CHANNEL, OWNER_ID, BOT_USERNAME, COMMAND_PREFIXES
-from PikachuXd.helpers.database import db, dcmdb, Database
-from PikachuXd.helpers.dbtools import handle_user_status, delcmd_is_on, delcmd_on, delcmd_off
 from PikachuXd.helpers.helper_functions.admin_check import admin_check
 from PikachuXd.helpers.helper_functions.extract_user import extract_user
 from PikachuXd.helpers.helper_functions.string_handling import extract_time
