@@ -4,7 +4,7 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from helpers.admins import get_administrators
+from PikachuXd.helpers.admins import get_administrators
 from PikachuXd.config import SUDO_USERS
 
 
