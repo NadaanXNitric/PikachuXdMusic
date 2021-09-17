@@ -16,29 +16,29 @@ from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
-from handlers.play import generate_cover
-from handlers.play import cb_admin_check
-from handlers.play import transcode
-from handlers.play import convert_seconds
-from handlers.play import time_to_seconds
-from handlers.play import changeImageSize
-from config import BOT_NAME as bn
-from config import DURATION_LIMIT
-from config import UPDATES_CHANNEL as updateschannel
-from config import que
-from cache.admins import admins as a
-from helpers.errors import DurationLimitError
-from helpers.decorators import errors
-from helpers.admins import get_administrators
-from helpers.channelmusic import get_chat_id
-from helpers.decorators import authorized_users_only
-from helpers.filters import command, other_filters
-from helpers.gets import get_file_name
-from callsmusic import callsmusic
-from callsmusic.callsmusic import client as USER
-from converter.converter import convert
+from PikachuXd.handlers.play import generate_cover
+from PikachuXd.handlers.play import cb_admin_check
+from PikachuXd.handlers.play import transcode
+from PikachuXd.handlers.play import convert_seconds
+from PikachuXd.handlers.play import time_to_seconds
+from PikachuXd.handlers.play import changeImageSize
+from PikachuXd.config import BOT_NAME as bn
+from PikachuXd.config import DURATION_LIMIT
+from PikachuXd.config import UPDATES_CHANNEL as updateschannel
+from PikachuXd.config import que
+from PikachuXd.cache.admins import admins as a
+from PikachuXd.helpers.errors import DurationLimitError
+from PikachuXd.helpers.decorators import errors
+from PikachuXd.helpers.admins import get_administrators
+from PikachuXd.helpers.channelmusic import get_chat_id
+from PikachuXd.helpers.decorators import authorized_users_only
+from PikachuXd.helpers.filters import command, other_filters
+from PikachuXd.helpers.gets import get_file_name
+from PikachuXd.callsmusic import callsmusic
+from PikachuXd.callsmusic.callsmusic import client as USER
+from PikachuXd.converter.converter import convert
 from downloaders import youtube
-from callsmusic.queues import queues
+from PikachuXd.callsmusic.queues import queues
 
 chat_id = None
 
