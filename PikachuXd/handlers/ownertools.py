@@ -13,12 +13,12 @@ from datetime import datetime
 from functools import wraps
 from os import environ, execle, path, remove
 
-from callsmusic.callsmusic import client as pakaya
-from helpers.database import db
-from helpers.dbtools import main_broadcast_handler
-from helpers.decorators import sudo_users_only
-from handlers.song import humanbytes, get_text
-from config import BOT_USERNAME, OWNER_ID, SUDO_USERS, GROUP_SUPPORT
+from PikachuXd.callsmusic.callsmusic import client as pakaya
+from PikachuXd.helpers.database import db
+from PikachuXd.helpers.dbtools import main_broadcast_handler
+from PikachuXd.helpers.decorators import sudo_users_only
+from PikachuXd.handlers.song import humanbytes, get_text
+from PikachuXd.config import BOT_USERNAME, OWNER_ID, SUDO_USERS, GROUP_SUPPORT
 
 
 # Stats Of Your Bot
