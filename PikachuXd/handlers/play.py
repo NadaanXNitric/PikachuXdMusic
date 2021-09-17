@@ -10,22 +10,22 @@ from os import path
 from asyncio.queues import QueueEmpty
 from pyrogram import Client, filters
 from typing import Callable
-from helpers.channelmusic import get_chat_id
-from callsmusic import callsmusic
-from callsmusic.queues import queues
-from helpers.admins import get_administrators
+from PikachuXd.helpers.channelmusic import get_chat_id
+from PikachuXd.callsmusic import callsmusic
+from PikachuXd.callsmusic.queues import queues
+from PikachuXd.helpers.admins import get_administrators
 from youtube_search import YoutubeSearch
-from callsmusic.callsmusic import client as USER
+from PikachuXd.callsmusic.callsmusic import client as USER
 from pyrogram.errors import UserAlreadyParticipant
-from downloaders import youtube
+from PikachuXd.downloaders import youtube
 
-from config import que, THUMB_IMG, DURATION_LIMIT, BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT, ASSISTANT_NAME
-from helpers.filters import command, other_filters
-from helpers.decorators import authorized_users_only
-from helpers.gets import get_file_name, get_url
+from PikachuXd.config import que, THUMB_IMG, DURATION_LIMIT, BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT, ASSISTANT_NAME
+from PikachuXd.helpers.filters import command, other_filters
+from PikachuXd.helpers.decorators import authorized_users_only
+from PikachuXd.helpers.gets import get_file_name, get_url
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, Voice
-from converter.converter import convert
-from cache.admins import admins as a
+from PikachuXd.converter.converter import convert
+from PikachuXd.cache.admins import admins as a
 from PIL import Image, ImageFont, ImageDraw
 
 
