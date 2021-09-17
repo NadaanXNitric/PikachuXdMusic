@@ -4,7 +4,7 @@ from PikachuXd.config import BOT_USERNAME, BOT_NAME, ASSISTANT_NAME, OWNER_NAME,
 from PikachuXd.helpers.filters import command
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from PikchuXd.helpers.decorators import authorized_users_only
+from PikachuXd.helpers.decorators import authorized_users_only
 
 
 START_TIME = datetime.utcnow()
