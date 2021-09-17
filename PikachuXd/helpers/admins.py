@@ -1,4 +1,4 @@
-import cache.admins
+import PikachuXd.cache.admins
 from typing import List
 
 from pyrogram.types import Chat
