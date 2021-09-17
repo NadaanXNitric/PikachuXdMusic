@@ -9,7 +9,7 @@ from pyrogram.types import Message, Voice
 
 from PikachuXd.callsmusic import callsmusic, queues
 
-import Pikaconverter
+import PikachuXd.converter
 from PikachuXd.downloaders import youtube
 
 from PikachuXd.config import BOT_NAME as bn, DURATION_LIMIT, UPDATES_CHANNEL, AUD_IMG, QUE_IMG, GROUP_SUPPORT
