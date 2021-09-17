@@ -2,7 +2,7 @@ import logging
 from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from pyrogram import Client as app
-from helpers.filters import command
+from PikachuXd.helpers.filters import command
 from PikachuXd.config import BOT_USERNAME
 
 
