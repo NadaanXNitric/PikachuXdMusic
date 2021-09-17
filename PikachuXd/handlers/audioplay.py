@@ -7,16 +7,16 @@ from os import path
 from pyrogram import Client
 from pyrogram.types import Message, Voice
 
-from callsmusic import callsmusic, queues
+from PikachuXd.callsmusic import callsmusic, queues
 
-import converter
-from downloaders import youtube
+import Pikaconverter
+from PikachuXd.downloaders import youtube
 
-from config import BOT_NAME as bn, DURATION_LIMIT, UPDATES_CHANNEL, AUD_IMG, QUE_IMG, GROUP_SUPPORT
-from helpers.filters import command, other_filters
-from helpers.decorators import errors
-from helpers.errors import DurationLimitError
-from helpers.gets import get_url, get_file_name
+from PikachuXd.config import BOT_NAME as bn, DURATION_LIMIT, UPDATES_CHANNEL, AUD_IMG, QUE_IMG, GROUP_SUPPORT
+from PikachuXd.helpers.filters import command, other_filters
+from PikachuXd.helpers.decorators import errors
+from PikachuXd.helpers.errors import DurationLimitError
+from PikachuXd.helpers.gets import get_url, get_file_name
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 @Client.on_message(command("audio") & other_filters)
