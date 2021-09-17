@@ -26,6 +26,7 @@ DEV_NAME = getenv("DEV_NAME", "iTs_Nitric")
 PMPERMIT = getenv("PMPERMIT", None)
 LOG_CHANNEL = getenv("LOG_CHANNEL", "1001334104062")
 OWNER_ID = getenv("OWNER_ID", "1961533931")
+OWNER_NAME = getenv("OWNER_NAME", "iTs_Nitric")
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
