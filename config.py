@@ -25,7 +25,7 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 PMPERMIT = getenv("PMPERMIT", None)
 LOG_GRP = getenv("LOG_GRP", "1001522296749")
-OWNER_NAME = getenv("OWNER_NAME", "https://t.me/iTs_Nitric")
+OWNER_NAME = getenv("OWNER_NAME", "iTs_Nitric")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
