@@ -4,7 +4,7 @@ from pytgcalls import PyTgCalls
 import PikachuXd.config
 from PikachuXd.callsmusic.queues import queues
 
-client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
+client = Client(PikachuXd.config.SESSION_NAME, PikachuXd.config.API_ID, PikachuXd.config.API_HASH)
 pytgcalls = PyTgCalls(client)
 
 
